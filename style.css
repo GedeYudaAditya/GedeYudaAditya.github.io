@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(53, 34, 195);
+    background: linear-gradient(52deg, rgba(53, 34, 195, 1) 0%, rgba(45, 253, 247, 1) 100%);
+}
+
+.jumbo {
+    background-image: url(img/FTK.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    line-height: 400px;
+    opacity: 60%;
+}
+
+.title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 65px;
+}
+
+header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    justify-content: space-between;
+}
+
+
+.logo {
+    padding: 5px 20px 5px 20px;
+    border: 3px solid white;
+    font-weight: bolder;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+}
+
+a.link {
+    color: white;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    margin: 10px;
+}
+
+.text {
+    width: 100%;
+    margin-left: 5px;
+    padding: 10px;
+    background-color: rgb(206, 238, 237);
+    font-weight: bolder;
+    border: 2px solid rgb(97, 103, 107);
+    border-radius: 5px;
+}
+
+.bio {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-image: url(img/lookingup.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+}
+
+.menu {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 1px solid white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.menus {
+    text-align: center;
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
