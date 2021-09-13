@@ -32,6 +32,16 @@ header {
     justify-content: space-between;
 }
 
+footer {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    color: rgb(179, 179, 179);
+    line-height: 50px;
+}
+
 
 .logo {
     padding: 5px 20px 5px 20px;
@@ -44,6 +54,18 @@ header {
 
 a.link {
     color: white;
+    background-color: transparent;
+    text-decoration: none;
+    transition: all;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+a.link:hover {
+    transition: all;
+    background-color: gray;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
     font-weight: bolder;
 }
 
@@ -76,10 +98,14 @@ a.link {
     padding-right: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border-left: 1px solid white;
+    /* border-left: 1px solid white; */
     text-align: center;
     height: 50px;
     line-height: 50px;
+}
+
+.quotes {
+    text-align: center;
 }
 
 .menus {
