@@ -30,6 +30,7 @@ h1 {
 header {
     top: 0;
     position: fixed;
+    z-index: 100;
     width: 100%;
     display: flex;
     align-items: center;
@@ -75,6 +76,197 @@ a.link:hover {
     font-weight: bolder;
 }
 
+@keyframes GRhoverpelangi {
+    0% {
+        color: black;
+    }
+
+    19% {
+        color: red;
+    }
+
+    25% {
+        color: brown;
+    }
+
+    40% {
+        color: blue;
+    }
+
+    55% {
+        color: green;
+    }
+
+    70% {
+        color: orange;
+    }
+
+    85% {
+        color: magenta;
+    }
+
+    100% {
+        color: black;
+    }
+}
+
+@-o-keyframes GRhoverpelangi {
+    0% {
+        color: black;
+    }
+
+    19% {
+        color: red;
+    }
+
+    25% {
+        color: brown;
+    }
+
+    40% {
+        color: blue;
+    }
+
+    55% {
+        color: green;
+    }
+
+    70% {
+        color: orange;
+    }
+
+    85% {
+        color: magenta;
+    }
+
+    100% {
+        color: black;
+    }
+}
+
+@-ms-keyframes GRhoverpelangi {
+    0% {
+        color: black;
+    }
+
+    19% {
+        color: red;
+    }
+
+    25% {
+        color: brown;
+    }
+
+    40% {
+        color: blue;
+    }
+
+    55% {
+        color: green;
+    }
+
+    70% {
+        color: orange;
+    }
+
+    85% {
+        color: magenta;
+    }
+
+    100% {
+        color: black;
+    }
+}
+
+@-moz-keyframes GRhoverpelangi {
+    0% {
+        color: black;
+    }
+
+    19% {
+        color: red;
+    }
+
+    25% {
+        color: brown;
+    }
+
+    40% {
+        color: blue;
+    }
+
+    55% {
+        color: green;
+    }
+
+    70% {
+        color: orange;
+    }
+
+    85% {
+        color: magenta;
+    }
+
+    100% {
+        color: black;
+    }
+}
+
+@-webkit-keyframes GRhoverpelangi {
+    0% {
+        color: black;
+    }
+
+    19% {
+        color: red;
+    }
+
+    25% {
+        color: brown;
+    }
+
+    40% {
+        color: blue;
+    }
+
+    55% {
+        color: green;
+    }
+
+    70% {
+        color: orange;
+    }
+
+    85% {
+        color: magenta;
+    }
+
+    100% {
+        color: black;
+    }
+}
+
+a.detail:hover {
+    transition: all;
+    text-decoration: none;
+    animation: GRhoverpelangi 4s infinite;
+    /* Standart */
+    -o-animation: GRhoverpelangi 4s infinite;
+    /* Opera */
+    -ms-animation: GRhoverpelangi 4s infinite;
+    /* IE */
+    -moz-animation: GRhoverpelangi 4s infinite;
+    /* Firefox */
+    -webkit-animation: GRhoverpelangi 4s infinite;
+    /* Safari and Chrome */
+}
+
+/* @keyframes background-slide {
+    100% {
+        background-position: -8160px;
+    }
+} */
+
 footer {
     text-align: center;
     width: 100%;
@@ -85,6 +277,10 @@ footer {
     line-height: 50px;
 }
 
+.space {
+    justify-content: space-around;
+    display: flex;
+}
 
 .container {
     display: flex;
@@ -156,4 +352,8 @@ h2 {
     background-position: center;
     width: 250px;
     height: 300px;
+}
+
+.jarak {
+    margin-right: 5px;
 }

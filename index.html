@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selamat Datang!</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -25,7 +27,7 @@
                     Home
                 </div>
             </a>
-            <a class="link" href="#">
+            <a class="link" href="index.html#detail">
                 <div class="menu">
                     Team Details
                 </div>
@@ -33,12 +35,12 @@
         </div>
     </header>
 
-    <div class="container">
+    <div id="detail" class="container" data-aos="zoom-in-up">
         <div class="bio">
                 
         </div>
         <div class="text">
-            <h2 class="text-center">Ketua kelompok</h2>
+            <h2 class="text-center gradien"><a class="detail" href="Yuda.html">Ketua kelompok</a></h2>
             <hr>
             <table>
                 <tr>
@@ -63,12 +65,12 @@
         </div>
         
     </div>
-    <div class="container">
+    <div class="container" data-aos="zoom-in-down">
         <div class="adi">
                 
         </div>
         <div class="text">
-            <h2 class="text-center">Anggota 1</h2>
+            <h2 class="text-center"><a class="detail" href="Adi.html">Anggota 1</a></h2>
             <hr>
             <table>
                 <tr>
@@ -91,12 +93,12 @@
         </div>
         
     </div>
-    <div class="container">
+    <div class="container" data-aos="zoom-in-up">
         <div class="dipa">
                 
         </div>
         <div class="text">
-            <h2 class="text-center">Anggota 2</h2>
+            <h2 class="text-center"><a class="detail" href="Dipa.html">Anggota 2</a></h2>
             <hr>
             <table>
                 <tr>
@@ -123,12 +125,12 @@
         
     </div>
 
-    <div class="container">
+    <div class="container" data-aos="zoom-in-down">
         <div class="Aji">
                 
         </div>
         <div class="text">
-            <h2 class="text-center">Anggota 3</h2>
+            <h2 class="text-center"><a class="detail" href="Saka.html">Anggota 3</a></h2>
             <hr>
             <table>
                 <tr>
@@ -157,5 +159,9 @@
     <footer>
         <p>Copyright &copy;2021 Built with Love by Group 2</p>
     </footer>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
